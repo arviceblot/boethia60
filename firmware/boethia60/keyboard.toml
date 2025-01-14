@@ -1,0 +1,50 @@
+[keyboard]
+name = "boethia60"
+product_name = "boethia60"
+vendor_id = 0x4c4b
+product_id = 0x4643
+manufacturer = "rmk"
+chip = "rp2040"
+
+[matrix]
+# Input and output pins are mandatory
+input_pins = ["PIN_7", "PIN_8", "PIN_9", "PIN_11", "PIN_12", "PIN_13", "PIN_14", "PIN_15", "PIN_16", "PIN_17", "PIN_18", "PIN_27", "PIN_28", "PIN_29", "PIN_30", "PIN_31", "PIN_32", "PIN_34", "PIN_35", "PIN_36"]
+output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+# WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
+# row2col = true
+
+[layout]
+rows = 5
+cols = 15
+layers = 2
+keymap = [
+    [
+        ["Escape", "Kc1",  "Kc2",  "Kc3", "Kc4", "Kc5", "Kc6",    "Kc7", "Kc8",   "Kc9",      "Kc0",       "Minus",       "Equal",        "Backslash", "Grave"],
+        ["Tab",    "Q",    "W",    "E",   "R",   "T",   "Y",      "U",   "I",     "O",        "P",         "LeftBracket", "RightBracket", "Backspace", "__"],
+        ["LCtrl",  "A",    "S",    "D",   "F",   "G",   "H",      "J",   "K",     "L",        "Semicolon", "Quote",       "__",           "Enter",     "__"],
+        ["LShift", "Z",    "X",    "C",   "V",   "B",   "N",      "M",   "Comma", "Dot",      "Slash",     "__",          "RShift",       "__",        "MO(1)"],
+        ["__",     "LGui", "LAlt", "__",  "__",  "__",  "Space",  "__",  "__",    "__",       "RAlt",      "RCtrl",       "__",           "__",        "__"],
+    ],
+    [
+        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "__",    "__",       "__",        "__",          "__",           "__",        "__"],
+        ["Bootloader", "__",   "__",   "__",  "__",  "__",  "__",     "__",  "__",    "__",       "__",        "UP",          "__",           "Delete",    "__"],
+        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "Home",  "PageUp",   "Left",      "Right",       "__",           "__",        "__"],
+        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "End",   "PageDown", "Down",      "__",          "__",           "__",        "__"],
+        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "__",    "__",       "__",        "__",          "__",           "__",        "__"],
+    ],
+]
+
+[light]
+# All light pins are high-active by default, uncomment if you want it to be low-active
+# capslock.pin = "PB2"
+# capslock.low_active = true
+# scrolllock.pin = "PA3"
+# scrolllock.low_active = true
+# Just ignore if no light pin is used for it
+# numslock.pin = "PA5"
+# numslock.low_active = true
+
+
+[storage]
+# Storage feature is enabled by default
+# enabled = false
