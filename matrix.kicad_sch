@@ -459,6 +459,12 @@
 		(uuid "2ec92955-6724-4a78-9784-c9ec29e319f8")
 	)
 	(junction
+		(at 255.27 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329ed256-1202-4f7a-bbff-4da765d664bd")
+	)
+	(junction
 		(at 209.55 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -807,12 +813,6 @@
 		(uuid "9923c96c-a096-4330-80a8-07537364d5f5")
 	)
 	(junction
-		(at 229.87 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9acc0563-627e-42e0-8734-8fc31757c5dd")
-	)
-	(junction
 		(at 77.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -829,6 +829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a23906ec-242a-4f5c-9bb0-098a06b872c9")
+	)
+	(junction
+		(at 245.11 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f8dbb0-1508-4d45-8255-9ae40e0d03ae")
 	)
 	(junction
 		(at 194.31 66.04)
@@ -901,12 +907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0e62f64-d0fc-40de-a07b-031f8811e6b8")
-	)
-	(junction
-		(at 240.03 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c27f3b9f-12d3-4316-b628-272622a1732e")
 	)
 	(junction
 		(at 163.83 90.17)
@@ -1076,6 +1076,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 41.91) (xy 255.27 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06504522-7ac2-4c2f-aa36-d899f5e72b91")
+	)
+	(wire
+		(pts
 			(xy 199.39 49.53) (xy 214.63 49.53)
 		)
 		(stroke
@@ -1193,6 +1203,16 @@
 			(type default)
 		)
 		(uuid "2a93b0d3-83d5-4475-a4ff-592fc7d7001e")
+	)
+	(wire
+		(pts
+			(xy 245.11 121.92) (xy 260.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7902c9-44ff-4524-812e-d34a22423037")
 	)
 	(wire
 		(pts
@@ -1436,6 +1456,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 114.3) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2f18cd-1031-4516-ba3f-72b4da5d5b05")
+	)
+	(wire
+		(pts
 			(xy 107.95 73.66) (xy 123.19 73.66)
 		)
 		(stroke
@@ -1553,16 +1583,6 @@
 			(type default)
 		)
 		(uuid "6c350802-df75-44f2-85ab-b82528c8d894")
-	)
-	(wire
-		(pts
-			(xy 229.87 121.92) (xy 260.35 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb29e86-9eb5-4fad-80cb-03564ee091ca")
 	)
 	(wire
 		(pts
@@ -1716,16 +1736,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 41.91) (xy 255.27 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b4aae64-6613-4e64-b4f6-10ab9d1176c7")
-	)
-	(wire
-		(pts
 			(xy 118.11 90.17) (xy 118.11 114.3)
 		)
 		(stroke
@@ -1836,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 114.3) (xy 240.03 149.86)
+			(xy 240.03 90.17) (xy 240.03 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 121.92) (xy 229.87 121.92)
+			(xy 214.63 121.92) (xy 245.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2303,16 +2313,6 @@
 			(type default)
 		)
 		(uuid "e9903ea4-35d9-479c-b61d-386c569cc902")
-	)
-	(wire
-		(pts
-			(xy 240.03 90.17) (xy 240.03 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e47c94-cd77-4490-826b-a41956f53f23")
 	)
 	(wire
 		(pts
@@ -4144,7 +4144,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 234.95 114.3 0)
+		(at 250.19 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4153,7 +4153,7 @@
 		(fields_autoplaced yes)
 		(uuid "31c5dbd6-708b-48fd-b96d-c3afb905ff44")
 		(property "Reference" "SW56"
-			(at 234.95 106.68 0)
+			(at 250.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4161,7 @@
 			)
 		)
 		(property "Value" "Fn"
-			(at 234.95 109.22 0)
+			(at 250.19 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
-			(at 234.95 109.22 0)
+			(at 250.19 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 109.22 0)
+			(at 250.19 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 114.3 0)
+			(at 250.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,16 +7284,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 229.87 118.11 90)
+		(at 245.11 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f9aebfd-9540-4f69-9dea-f7ee90e8bb51")
 		(property "Reference" "D55"
-			(at 232.41 116.8399 90)
+			(at 247.65 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7301,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 232.41 119.3799 90)
+			(at 247.65 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7310,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 229.87 118.11 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 118.11 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7328,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 229.87 118.11 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7337,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 229.87 118.11 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7346,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 118.11 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
