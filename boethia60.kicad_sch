@@ -5693,7 +5693,7 @@
 	)
 	(global_label "GPIO1"
 		(shape input)
-		(at 82.55 38.1 0)
+		(at 82.55 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5703,7 +5703,7 @@
 		)
 		(uuid "08461976-7d77-4c45-8e48-d45b276f2775")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.22 38.1 0)
+			(at 91.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5781,7 @@
 	)
 	(global_label "GPIO0"
 		(shape input)
-		(at 82.55 35.56 0)
+		(at 82.55 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5791,7 +5791,7 @@
 		)
 		(uuid "257b7ddb-fc5f-4b20-be25-c0d19f34ddca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.22 35.56 0)
+			(at 91.22 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5869,7 @@
 	)
 	(global_label "col6"
 		(shape input)
-		(at 82.55 76.2 0)
+		(at 82.55 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5879,7 +5879,7 @@
 		)
 		(uuid "39b4479a-d88b-48e3-8fb9-e580b0b90f94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6475 76.2 0)
+			(at 89.6475 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,9 +5955,9 @@
 			)
 		)
 	)
-	(global_label "GPIO3"
+	(global_label "GPIO23"
 		(shape input)
-		(at 82.55 43.18 0)
+		(at 82.55 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5967,7 +5967,7 @@
 		)
 		(uuid "58775372-cc8d-471c-932a-91b3901f081a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.22 43.18 0)
+			(at 92.4295 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6001,7 @@
 	)
 	(global_label "col1"
 		(shape input)
-		(at 82.55 93.98 0)
+		(at 82.55 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6011,7 +6011,7 @@
 		)
 		(uuid "75321d80-acee-4d82-a0e0-2a498a00d040")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6475 93.98 0)
+			(at 89.6475 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6067,7 @@
 	)
 	(global_label "col2"
 		(shape input)
-		(at 82.55 96.52 0)
+		(at 82.55 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6077,7 +6077,7 @@
 		)
 		(uuid "8b3ed055-10f0-4fbf-ae1c-8e52db35fb82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6475 96.52 0)
+			(at 89.6475 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,9 +6109,9 @@
 			)
 		)
 	)
-	(global_label "GPIO2"
+	(global_label "GPIO22"
 		(shape input)
-		(at 82.55 40.64 0)
+		(at 82.55 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6121,7 +6121,7 @@
 		)
 		(uuid "a29443a9-54ca-4242-b8e5-410e0c03356a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.22 40.64 0)
+			(at 92.4295 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6221,7 @@
 	)
 	(global_label "col0"
 		(shape input)
-		(at 82.55 91.44 0)
+		(at 82.55 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6231,7 +6231,7 @@
 		)
 		(uuid "e15a529d-fd12-4cfd-879d-1edc69da011c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6475 91.44 0)
+			(at 89.6475 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,9 +6329,9 @@
 			)
 		)
 	)
-	(global_label "GPIO4"
+	(global_label "GPIO24"
 		(shape input)
-		(at 82.55 45.72 0)
+		(at 82.55 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6341,7 +6341,7 @@
 		)
 		(uuid "ecfd6855-44c3-4dc3-be1f-91183e16e746")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.22 45.72 0)
+			(at 92.4295 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 230.8352 83.82 0)
 			(effects
 				(font
@@ -6442,6 +6442,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -6520,6 +6529,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C82317"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa1c355a-0042-459c-b0dc-f2736187dff8")
 		)
@@ -6581,7 +6599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.1352 83.82 0)
 			(effects
 				(font
@@ -6600,6 +6618,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 217.17 80.01 0)
 			(effects
 				(font
@@ -6873,6 +6900,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C9002"
+			(at 242.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "39cd5a63-36c8-44a4-9efe-093182d14644")
 		)
@@ -6922,7 +6958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 126.6952 83.82 0)
 			(effects
 				(font
@@ -6941,6 +6977,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -6992,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 83.82 0)
 			(effects
 				(font
@@ -7011,6 +7056,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -7053,7 +7107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 177.8 35.5599 0)
 			(effects
 				(font
@@ -7062,7 +7116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 38.1 0)
 			(effects
 				(font
@@ -7081,6 +7135,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C15684"
 			(at 173.99 34.29 0)
 			(effects
 				(font
@@ -7132,7 +7195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 83.82 0)
 			(effects
 				(font
@@ -7151,6 +7214,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C15684"
 			(at 102.87 80.01 0)
 			(effects
 				(font
@@ -7359,6 +7431,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "XC6206"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe8a0337-ac7b-48d3-a8d9-a1d27055c67b")
 		)
@@ -7403,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 30.7848 0)
 			(effects
 				(font
@@ -7422,6 +7503,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C106203"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -7471,7 +7561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse_0805_2012Metric"
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -7491,6 +7581,15 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 135.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C2833485"
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -7540,7 +7639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 120.9548 0)
 			(effects
 				(font
@@ -7559,6 +7658,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 261.62 121.92 0)
 			(effects
 				(font
@@ -7676,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 83.82 0)
 			(effects
 				(font
@@ -7695,6 +7803,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -7876,7 +7993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 167.64 43.942 90)
 			(effects
 				(font
@@ -7895,6 +8012,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C17588"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -8012,7 +8138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.9752 83.82 0)
 			(effects
 				(font
@@ -8031,6 +8157,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C15684"
 			(at 207.01 80.01 0)
 			(effects
 				(font
@@ -8167,6 +8302,15 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C2040"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -8409,6 +8553,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C318884"
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5bdcf11-61cb-4454-a194-e2e50fc10d60")
 		)
@@ -8469,6 +8622,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 113.03 41.91 0)
 			(effects
 				(font
@@ -8578,6 +8740,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2827688"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "077cf6a7-f775-4fad-ad59-1076232ef88b")
 		)
@@ -8625,7 +8796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 256.54 38.608 90)
 			(effects
 				(font
@@ -8644,6 +8815,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C17513"
 			(at 256.54 36.83 0)
 			(effects
 				(font
@@ -8686,7 +8866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 208.28 35.5599 0)
 			(effects
 				(font
@@ -8695,7 +8875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 205.4352 38.1 0)
 			(effects
 				(font
@@ -8714,6 +8894,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C15684"
 			(at 204.47 34.29 0)
 			(effects
 				(font
@@ -8895,7 +9084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 207.01 58.928 90)
 			(effects
 				(font
@@ -8914,6 +9103,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C14709"
 			(at 207.01 57.15 0)
 			(effects
 				(font
@@ -8990,6 +9188,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "aab9a3bb-2190-4123-831f-408374757f22")
 		)
@@ -9044,7 +9251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 135.382 54.61 90)
 			(effects
 				(font
@@ -9063,6 +9270,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C84375"
 			(at 137.16 54.61 0)
 			(effects
 				(font
@@ -9244,7 +9460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 232.41 133.858 90)
 			(effects
 				(font
@@ -9263,6 +9479,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C17513"
 			(at 232.41 132.08 0)
 			(effects
 				(font
@@ -9314,7 +9539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 83.82 0)
 			(effects
 				(font
@@ -9333,6 +9558,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -9514,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 167.64 44.958 90)
 			(effects
 				(font
@@ -9533,6 +9767,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C17588"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -9650,7 +9893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 126.492 54.61 90)
 			(effects
 				(font
@@ -9669,6 +9912,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C84375"
 			(at 128.27 54.61 0)
 			(effects
 				(font
@@ -9852,7 +10104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "R_0402_1005Metric"
 			(at 28.702 27.94 90)
 			(effects
 				(font
@@ -9871,6 +10123,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 30.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C17513"
 			(at 30.48 27.94 0)
 			(effects
 				(font
@@ -10120,7 +10381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 83.82 0)
 			(effects
 				(font
@@ -10139,6 +10400,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -10322,7 +10592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.4652 83.82 0)
 			(effects
 				(font
@@ -10341,6 +10611,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 190.5 80.01 0)
 			(effects
 				(font
@@ -10656,7 +10935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.0652 83.82 0)
 			(effects
 				(font
@@ -10675,6 +10954,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C169292"
 			(at 165.1 80.01 0)
 			(effects
 				(font
@@ -10723,7 +11011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 35.8648 0)
 			(effects
 				(font
@@ -10742,6 +11030,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C106203"
 			(at 231.14 36.83 0)
 			(effects
 				(font
