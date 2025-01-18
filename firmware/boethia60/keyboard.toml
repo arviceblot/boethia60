@@ -9,30 +9,38 @@ chip = "rp2040"
 [matrix]
 # Input and output pins are mandatory
 # For rp2040, these are the GPIO pins, not the harware pins
-input_pins = ["PIN_15", "PIN_14", "PIN_13", "PIN_12", "PIN_11"]
-output_pins = ["PIN_0", "PIN_1", "PIN_2", "PIN_5", "PIN_6", "PIN_7", "PIN_3", "PIN_8", "PIN_9", "PIN_10", "PIN_17", "PIN_18", "PIN_19", "PIN_20", "PIN_21"]
+# Input pins are the row pins, outputs are the columns in order
+input_pins = ["PIN_20", "PIN_21", "PIN_23", "PIN_24", "PIN_1"]
+output_pins = ["PIN_14", "PIN_15", "PIN_16", "PIN_17", "PIN_18", "PIN_3", "PIN_2", "PIN_4", "PIN_5", "PIN_13", "PIN_7", "PIN_6", "PIN_0", "PIN_19", "PIN_25"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
 rows = 5
 cols = 15
-layers = 2
+layers = 3
 keymap = [
     [
-        ["Escape", "Kc1",  "Kc2",  "Kc3", "Kc4", "Kc5", "Kc6",    "Kc7", "Kc8",   "Kc9",      "Kc0",       "Minus",       "Equal",        "Backslash", "Grave"],
-        ["Tab",    "Q",    "W",    "E",   "R",   "T",   "Y",      "U",   "I",     "O",        "P",         "LeftBracket", "RightBracket", "Backspace", "__"],
-        ["LCtrl",  "A",    "S",    "D",   "F",   "G",   "H",      "J",   "K",     "L",        "Semicolon", "Quote",       "__",           "Enter",     "__"],
-        ["LShift", "Z",    "X",    "C",   "V",   "B",   "N",      "M",   "Comma", "Dot",      "Slash",     "__",          "RShift",       "__",        "MO(1)"],
-        ["__",     "LGui", "LAlt", "__",  "__",  "__",  "Space",  "__",  "__",    "__",       "RAlt",      "RCtrl",       "__",           "__",        "__"],
-    ],
+        ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Backslash", "Grave"], 
+        ["Tab", "__", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LeftBracket", "RightBracket", "Backspace"], 
+        ["LCtrl", "__", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "Enter", "__"], 
+        ["__", "LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "__", "RShift", "MO(1)"], 
+        ["__", "__", "LGui", "LAlt", "__", "Space", "MO(2)", "__", "Space", "__", "RAlt", "__", "RCtrl", "__", "__"], 
+    ], 
     [
-        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "__",    "__",       "__",        "__",          "__",           "__",        "__"],
-        ["Bootloader", "__",   "__",   "__",  "__",  "__",  "__",     "__",  "__",    "__",       "__",        "UP",          "__",           "Delete",    "__"],
-        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "Home",  "PageUp",   "Left",      "Right",       "__",           "__",        "__"],
-        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "End",   "PageDown", "Down",      "__",          "__",           "__",        "__"],
-        ["__",         "__",   "__",   "__",  "__",  "__",  "__",     "__",  "__",    "__",       "__",        "__",          "__",           "__",        "__"],
-    ],
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+        ["Bootloader", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "UP", "__", "Delete"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "Home", "PageUp", "Left", "Right", "__", "__"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "End", "PageDown", "Down", "__", "__", "__"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+    ], 
+    [
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"], 
+    ], 
 ]
 
 [light]
