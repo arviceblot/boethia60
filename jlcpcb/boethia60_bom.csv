@@ -14,3 +14,4 @@
 "U3","RP2040","https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf","Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm","1","C2040"
 "U4","W25Q128JVS","https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf","Package_SO:SOIC-8_5.23x5.23mm_P1.27mm","1","C82317"
 "Y1","Crystal_GND24_Small","~","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","1","C9002"
+"USB1","HRO-TYPE-C-31-M-12","",""Type-C:HRO-TYPE-C-31-M-12-HandSoldering,"1","C165948"

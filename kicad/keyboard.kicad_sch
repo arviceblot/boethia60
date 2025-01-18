@@ -9107,9 +9107,9 @@
 		)
 		(uuid "fa71181a-3723-4e43-9e62-45dbd8d7e21f")
 	)
-	(global_label "GPIO23"
+	(global_label "GPIO11"
 		(shape input)
-		(at 102.87 228.6 0)
+		(at 91.44 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9119,7 +9119,7 @@
 		)
 		(uuid "0015e8e4-5d8a-4eff-8c6c-b98819ee4c3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.7495 228.6 0)
+			(at 100.6653 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,9 +9129,9 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
+	(global_label "GPIO8"
 		(shape input)
-		(at 100.33 180.34 0)
+		(at 91.44 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9141,7 +9141,7 @@
 		)
 		(uuid "102e34cc-6c66-4c59-9b84-771c772c31db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109 180.34 0)
+			(at 99.4558 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,9 +9151,9 @@
 			)
 		)
 	)
-	(global_label "GPIO25"
+	(global_label "GPIO22"
 		(shape input)
-		(at 102.87 233.68 0)
+		(at 91.44 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9163,7 +9163,7 @@
 		)
 		(uuid "188af01a-9182-40d0-8ab6-f0275e15b901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.7495 233.68 0)
+			(at 100.6653 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,9 +9341,9 @@
 			)
 		)
 	)
-	(global_label "GPIO22"
+	(global_label "GPIO10"
 		(shape input)
-		(at 100.33 226.06 0)
+		(at 91.44 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9353,7 +9353,7 @@
 		)
 		(uuid "39ff304b-020a-49f7-8e07-71f539433b76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2095 226.06 0)
+			(at 100.6653 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,9 +9449,9 @@
 			)
 		)
 	)
-	(global_label "GPIO24"
+	(global_label "GPIO12"
 		(shape input)
-		(at 102.87 231.14 0)
+		(at 91.44 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9461,7 +9461,7 @@
 		)
 		(uuid "4aeeab6a-f67a-42c3-8b72-b20780711302")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.7495 231.14 0)
+			(at 100.6653 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,9 +9557,9 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
+	(global_label "GPIO9"
 		(shape input)
-		(at 99.06 210.82 0)
+		(at 91.44 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9569,7 +9569,7 @@
 		)
 		(uuid "6000992f-6e70-47a9-a3e8-3fbfcef5c55b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.73 210.82 0)
+			(at 99.4558 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +10220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00e7c08c-fd16-4e95-969c-2eab9402440a")
-		(property "Reference" "K_19"
+		(property "Reference" "K_20"
 			(at 162.56 44.8818 0)
 			(effects
 				(font
@@ -10228,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "r"
 			(at 162.56 53.34 0)
 			(effects
 				(font
@@ -10237,7 +10237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 162.56 50.8 0)
 			(effects
 				(font
@@ -10272,7 +10272,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_19")
+					(reference "K_20")
 					(unit 1)
 				)
 			)
@@ -10288,7 +10288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01726884-7bb8-4f28-9e9e-a14c176eda3e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR014"
 			(at 171.45 201.93 0)
 			(effects
 				(font
@@ -10338,7 +10338,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR039")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10353,7 +10353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023bf96c-7e84-4386-b738-9e56950f3b91")
-		(property "Reference" "K_8"
+		(property "Reference" "K_9"
 			(at 238.76 19.4818 0)
 			(effects
 				(font
@@ -10361,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "8"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -10370,7 +10370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 238.76 25.4 0)
 			(effects
 				(font
@@ -10405,7 +10405,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_8")
+					(reference "K_9")
 					(unit 1)
 				)
 			)
@@ -10420,7 +10420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0407a017-2146-4172-8cea-6064c6ff8f59")
-		(property "Reference" "K_23"
+		(property "Reference" "K_24"
 			(at 264.16 44.8818 0)
 			(effects
 				(font
@@ -10428,7 +10428,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "i"
 			(at 264.16 53.34 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -10472,7 +10472,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_23")
+					(reference "K_24")
 					(unit 1)
 				)
 			)
@@ -10487,7 +10487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "060ec540-13f3-448e-96be-36b722bb11b1")
-		(property "Reference" "D_3"
+		(property "Reference" "D_4"
 			(at 113.03 31.242 90)
 			(effects
 				(font
@@ -10532,6 +10532,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 110.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "245e0198-143a-4fd5-9bc6-5c7ea3399ba5")
 		)
@@ -10541,7 +10550,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_3")
+					(reference "D_4")
 					(unit 1)
 				)
 			)
@@ -10556,7 +10565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07876930-f572-4e83-8e79-4457bc87275b")
-		(property "Reference" "D_5"
+		(property "Reference" "D_6"
 			(at 163.83 31.242 90)
 			(effects
 				(font
@@ -10601,6 +10610,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9a8736f-a7ff-432d-9517-3397ccbba038")
 		)
@@ -10610,7 +10628,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_5")
+					(reference "D_6")
 					(unit 1)
 				)
 			)
@@ -10625,7 +10643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07f0449f-5f58-4b62-a26b-32f2cc56ca8a")
-		(property "Reference" "D_10"
+		(property "Reference" "D_11"
 			(at 290.83 31.242 90)
 			(effects
 				(font
@@ -10670,6 +10688,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45df8683-8be3-4173-96af-bd367fb7e497")
 		)
@@ -10679,7 +10706,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_10")
+					(reference "D_11")
 					(unit 1)
 				)
 			)
@@ -10694,7 +10721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0889ff09-df60-45a4-b819-cb188021bc8d")
-		(property "Reference" "D_32"
+		(property "Reference" "D_33"
 			(at 138.43 82.042 90)
 			(effects
 				(font
@@ -10739,6 +10766,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a286e50b-cab0-41aa-ae83-d00678075379")
 		)
@@ -10748,7 +10784,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_32")
+					(reference "D_33")
 					(unit 1)
 				)
 			)
@@ -10763,7 +10799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c7fc40b-5bda-4f95-a59e-1f5c1af39ec7")
-		(property "Reference" "D_44"
+		(property "Reference" "D_45"
 			(at 113.03 107.442 90)
 			(effects
 				(font
@@ -10808,6 +10844,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9dc69b88-9948-4d61-9b64-176b57ed34cb")
 		)
@@ -10817,7 +10862,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_44")
+					(reference "D_45")
 					(unit 1)
 				)
 			)
@@ -10833,7 +10878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0daf9f32-90f2-4583-9853-31c122224aa2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR022"
 			(at 262.89 256.54 0)
 			(effects
 				(font
@@ -10883,7 +10928,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR050")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10898,7 +10943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fdcf4a1-816a-48df-9b15-b2b7c3e47afb")
-		(property "Reference" "D_17"
+		(property "Reference" "D_18"
 			(at 113.03 56.642 90)
 			(effects
 				(font
@@ -10943,6 +10988,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f715b910-9844-4b6a-86ac-11655a233614")
 		)
@@ -10952,7 +11006,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_17")
+					(reference "D_18")
 					(unit 1)
 				)
 			)
@@ -10967,7 +11021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fe2a311-cd16-4211-99fa-6334878c250c")
-		(property "Reference" "K_61"
+		(property "Reference" "K_62"
 			(at 340.36 121.0818 0)
 			(effects
 				(font
@@ -10975,7 +11029,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "r_ctrl"
 			(at 340.36 129.54 0)
 			(effects
 				(font
@@ -10984,7 +11038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 340.36 127 0)
 			(effects
 				(font
@@ -11019,7 +11073,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_61")
+					(reference "K_62")
 					(unit 1)
 				)
 			)
@@ -11034,7 +11088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10860fbb-9ae1-4e3e-8bba-6d317e1b2ef3")
-		(property "Reference" "K_17"
+		(property "Reference" "K_18"
 			(at 111.76 44.8818 0)
 			(effects
 				(font
@@ -11042,7 +11096,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "w"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -11051,7 +11105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 111.76 50.8 0)
 			(effects
 				(font
@@ -11086,7 +11140,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_17")
+					(reference "K_18")
 					(unit 1)
 				)
 			)
@@ -11101,7 +11155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "116752d9-d2dd-4dea-ab4c-a4fecf52e0ba")
-		(property "Reference" "D_61"
+		(property "Reference" "D_62"
 			(at 341.63 132.842 90)
 			(effects
 				(font
@@ -11146,6 +11200,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 339.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35ebfc47-73c1-4377-9bf3-9b037c897776")
 		)
@@ -11155,7 +11218,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_61")
+					(reference "D_62")
 					(unit 1)
 				)
 			)
@@ -11170,7 +11233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12cb88fc-443a-443f-b8bf-332a1dbb040c")
-		(property "Reference" "D_52"
+		(property "Reference" "D_53"
 			(at 316.23 107.442 90)
 			(effects
 				(font
@@ -11215,6 +11278,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 313.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "469fd0da-ddb7-4c1a-8035-7763a03f70da")
 		)
@@ -11224,7 +11296,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_52")
+					(reference "D_53")
 					(unit 1)
 				)
 			)
@@ -11240,7 +11312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131d9c5b-2f73-4e76-b290-8932b14f511a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR06"
 			(at 162.56 168.91 0)
 			(effects
 				(font
@@ -11290,7 +11362,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR038")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11305,7 +11377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "149de418-f276-4a6f-85ef-199c769f20cd")
-		(property "Reference" "K_45"
+		(property "Reference" "K_46"
 			(at 137.16 95.6818 0)
 			(effects
 				(font
@@ -11313,7 +11385,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "c"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -11322,7 +11394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -11357,7 +11429,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_45")
+					(reference "K_46")
 					(unit 1)
 				)
 			)
@@ -11372,7 +11444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16c497a4-587a-4902-bb3b-c0a622498e55")
-		(property "Reference" "K_14"
+		(property "Reference" "K_15"
 			(at 391.16 19.4818 0)
 			(effects
 				(font
@@ -11380,7 +11452,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "grave"
 			(at 391.16 27.94 0)
 			(effects
 				(font
@@ -11389,7 +11461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 391.16 25.4 0)
 			(effects
 				(font
@@ -11424,7 +11496,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_14")
+					(reference "K_15")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18867ceb-6bb8-4145-ab0b-a01ff997097e")
-		(property "Reference" "K_55"
+		(property "Reference" "K_56"
 			(at 86.36 121.0818 0)
 			(effects
 				(font
@@ -11447,7 +11519,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "l_gui"
 			(at 86.36 129.54 0)
 			(effects
 				(font
@@ -11456,7 +11528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -11491,7 +11563,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_55")
+					(reference "K_56")
 					(unit 1)
 				)
 			)
@@ -11507,7 +11579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bf2b333-9f49-48c4-8fcd-83e2c977448c")
-		(property "Reference" "C23"
+		(property "Reference" "C2"
 			(at 186.69 167.6399 0)
 			(effects
 				(font
@@ -11570,7 +11642,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C23")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11585,7 +11657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fbd7e29-1f9b-454e-88e9-e0220f0204da")
-		(property "Reference" "K_10"
+		(property "Reference" "K_11"
 			(at 289.56 19.4818 0)
 			(effects
 				(font
@@ -11593,7 +11665,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "0"
 			(at 289.56 27.94 0)
 			(effects
 				(font
@@ -11602,7 +11674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 289.56 25.4 0)
 			(effects
 				(font
@@ -11637,7 +11709,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_10")
+					(reference "K_11")
 					(unit 1)
 				)
 			)
@@ -11652,7 +11724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20cac961-42d6-4680-8a8c-a812e4a49c80")
-		(property "Reference" "D_21"
+		(property "Reference" "D_22"
 			(at 214.63 56.642 90)
 			(effects
 				(font
@@ -11697,6 +11769,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87e423f8-ab7c-46d4-a967-5a09df3130fc")
 		)
@@ -11706,7 +11787,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_21")
+					(reference "D_22")
 					(unit 1)
 				)
 			)
@@ -11721,7 +11802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2175ae43-f248-402d-b45c-ddf19695e0ff")
-		(property "Reference" "K_5"
+		(property "Reference" "K_6"
 			(at 162.56 19.4818 0)
 			(effects
 				(font
@@ -11729,7 +11810,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "5"
 			(at 162.56 27.94 0)
 			(effects
 				(font
@@ -11738,7 +11819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 162.56 25.4 0)
 			(effects
 				(font
@@ -11773,7 +11854,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_5")
+					(reference "K_6")
 					(unit 1)
 				)
 			)
@@ -11788,7 +11869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "231035a9-20f3-4bf8-8dd0-072bde63f1c7")
-		(property "Reference" "D_18"
+		(property "Reference" "D_19"
 			(at 138.43 56.642 90)
 			(effects
 				(font
@@ -11833,6 +11914,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55e97928-d3bd-4cb6-a872-820f68909d9b")
 		)
@@ -11842,7 +11932,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_18")
+					(reference "D_19")
 					(unit 1)
 				)
 			)
@@ -11857,7 +11947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23f53fe6-b1fd-4469-8144-99a3c0e26301")
-		(property "Reference" "K_41"
+		(property "Reference" "K_42"
 			(at 365.76 70.2818 0)
 			(effects
 				(font
@@ -11865,7 +11955,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "enter"
 			(at 365.76 78.74 0)
 			(effects
 				(font
@@ -11874,7 +11964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 365.76 76.2 0)
 			(effects
 				(font
@@ -11909,7 +11999,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_41")
+					(reference "K_42")
 					(unit 1)
 				)
 			)
@@ -11924,7 +12014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "269d85ad-3af5-48f6-a12c-2af8682880c2")
-		(property "Reference" "D_19"
+		(property "Reference" "D_20"
 			(at 163.83 56.642 90)
 			(effects
 				(font
@@ -11969,6 +12059,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aac066c9-de53-42df-a602-0f313771c49c")
 		)
@@ -11978,7 +12077,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_19")
+					(reference "D_20")
 					(unit 1)
 				)
 			)
@@ -11993,7 +12092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26bc81e0-00fa-462c-bf0e-0dff614e9b33")
-		(property "Reference" "D_8"
+		(property "Reference" "D_9"
 			(at 240.03 31.242 90)
 			(effects
 				(font
@@ -12038,6 +12137,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 237.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e922321a-32e1-4740-89e2-2a7ccf4b7f5e")
 		)
@@ -12047,7 +12155,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_8")
+					(reference "D_9")
 					(unit 1)
 				)
 			)
@@ -12063,7 +12171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27aee2e2-2799-4e4a-8d0c-a959a9d5a6c4")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 265.43 165.1 90)
 			(effects
 				(font
@@ -12124,7 +12232,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12140,7 +12248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293a9680-8777-4a99-be85-f027b1a28737")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 176.53 173.99 90)
 			(effects
 				(font
@@ -12201,7 +12309,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12217,7 +12325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29df5689-c1f0-4269-aee5-4a94d1078bc8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR023"
 			(at 40.64 261.62 0)
 			(effects
 				(font
@@ -12267,7 +12375,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR028")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12282,7 +12390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d201ed7-3399-4ce9-af77-5b49cc5e1353")
-		(property "Reference" "K_6"
+		(property "Reference" "K_7"
 			(at 187.96 19.4818 0)
 			(effects
 				(font
@@ -12290,7 +12398,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "6"
 			(at 187.96 27.94 0)
 			(effects
 				(font
@@ -12299,7 +12407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 187.96 25.4 0)
 			(effects
 				(font
@@ -12334,7 +12442,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_6")
+					(reference "K_7")
 					(unit 1)
 				)
 			)
@@ -12349,7 +12457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dfc0071-e441-4349-8b5f-316ba39fdb2c")
-		(property "Reference" "D_49"
+		(property "Reference" "D_50"
 			(at 240.03 107.442 90)
 			(effects
 				(font
@@ -12394,6 +12502,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94121ce0-923c-4032-819a-7d91940e9303")
 		)
@@ -12403,7 +12520,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_49")
+					(reference "D_50")
 					(unit 1)
 				)
 			)
@@ -12419,7 +12536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff850c7-0bc7-4799-85ce-dca5d4a08af7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR04"
 			(at 213.36 167.64 0)
 			(effects
 				(font
@@ -12469,7 +12586,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR043")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12485,7 +12602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b3701b-bde3-45f8-aeb4-efacf0fdf361")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 215.8619 185.42 90)
 			(effects
 				(font
@@ -12546,7 +12663,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -12562,7 +12679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32075498-1a52-4362-852c-053dbb512ad3")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR012"
 			(at 209.55 200.66 0)
 			(effects
 				(font
@@ -12612,7 +12729,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR042")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12627,7 +12744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32901b41-5c92-4246-a7a3-c218f11d93c4")
-		(property "Reference" "D_57"
+		(property "Reference" "D_58"
 			(at 163.83 132.842 90)
 			(effects
 				(font
@@ -12672,6 +12789,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10714e4e-13b0-4c93-861a-8f6ccc5df530")
 		)
@@ -12681,7 +12807,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_57")
+					(reference "D_58")
 					(unit 1)
 				)
 			)
@@ -12696,7 +12822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32ba9cf2-31ea-43f3-a7ab-307b2e05c919")
-		(property "Reference" "D_35"
+		(property "Reference" "D_36"
 			(at 214.63 82.042 90)
 			(effects
 				(font
@@ -12741,6 +12867,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7798d591-4ba8-43f7-9ae5-a390531d81b1")
 		)
@@ -12750,7 +12885,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_35")
+					(reference "D_36")
 					(unit 1)
 				)
 			)
@@ -12765,7 +12900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33161f66-1ca0-4888-94ab-1b853aa2d3b9")
-		(property "Reference" "K_52"
+		(property "Reference" "K_53"
 			(at 314.96 95.6818 0)
 			(effects
 				(font
@@ -12773,7 +12908,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "slash"
 			(at 314.96 104.14 0)
 			(effects
 				(font
@@ -12782,7 +12917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 314.96 101.6 0)
 			(effects
 				(font
@@ -12817,7 +12952,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_52")
+					(reference "K_53")
 					(unit 1)
 				)
 			)
@@ -12833,7 +12968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d0fd89-75e7-42ed-860e-ecbee89062de")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR07"
 			(at 182.88 168.91 0)
 			(effects
 				(font
@@ -12883,7 +13018,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR040")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12899,7 +13034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38efaaae-3b2c-4bad-a4b3-8c61b791e82f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -12949,7 +13084,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR027")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12964,7 +13099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "394040fd-6e43-49ed-a4bd-582f04c6bc84")
-		(property "Reference" "D_6"
+		(property "Reference" "D_7"
 			(at 189.23 31.242 90)
 			(effects
 				(font
@@ -13009,6 +13144,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60de6396-c79a-436f-821f-678b7595306d")
 		)
@@ -13018,7 +13162,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_6")
+					(reference "D_7")
 					(unit 1)
 				)
 			)
@@ -13033,7 +13177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39487c4c-a278-452b-9ef1-deca1865f0a4")
-		(property "Reference" "K_26"
+		(property "Reference" "K_27"
 			(at 340.36 44.8818 0)
 			(effects
 				(font
@@ -13041,7 +13185,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "l_brace"
 			(at 340.36 53.34 0)
 			(effects
 				(font
@@ -13050,7 +13194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 340.36 50.8 0)
 			(effects
 				(font
@@ -13085,7 +13229,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_26")
+					(reference "K_27")
 					(unit 1)
 				)
 			)
@@ -13100,7 +13244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39c8a6d5-b0e2-459a-9be1-c79442002966")
-		(property "Reference" "D_34"
+		(property "Reference" "D_35"
 			(at 189.23 82.042 90)
 			(effects
 				(font
@@ -13145,6 +13289,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8cb75b7-bcf3-40e6-b882-3b8c223816b4")
 		)
@@ -13154,7 +13307,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_34")
+					(reference "D_35")
 					(unit 1)
 				)
 			)
@@ -13170,7 +13323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3de30df6-c81c-433e-80ab-e23135ec2031")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR026"
 			(at 224.79 275.59 0)
 			(effects
 				(font
@@ -13220,7 +13373,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR047")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13235,7 +13388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fc7950b-61e7-4e38-bf5a-8ff57af2c62a")
-		(property "Reference" "D_55"
+		(property "Reference" "D_56"
 			(at 87.63 132.842 90)
 			(effects
 				(font
@@ -13280,6 +13433,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9694cdbd-617c-45f8-96ff-785139c20f00")
 		)
@@ -13289,7 +13451,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_55")
+					(reference "D_56")
 					(unit 1)
 				)
 			)
@@ -13304,7 +13466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4024ba91-6d12-4e2e-ba52-38ce16c0e881")
-		(property "Reference" "D_24"
+		(property "Reference" "D_25"
 			(at 290.83 56.642 90)
 			(effects
 				(font
@@ -13349,6 +13511,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 288.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43f98c95-c7d5-4785-850e-b217259dfc63")
 		)
@@ -13358,7 +13529,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_24")
+					(reference "D_25")
 					(unit 1)
 				)
 			)
@@ -13373,7 +13544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42f0f511-2d1e-41d8-96dd-129ca3f390e8")
-		(property "Reference" "D_23"
+		(property "Reference" "D_24"
 			(at 265.43 56.642 90)
 			(effects
 				(font
@@ -13418,6 +13589,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5736f120-7725-410d-a2e1-536460f87d06")
 		)
@@ -13427,7 +13607,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_23")
+					(reference "D_24")
 					(unit 1)
 				)
 			)
@@ -13442,7 +13622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "432246ec-c004-4d5b-a005-b22c7837193a")
-		(property "Reference" "D_28"
+		(property "Reference" "D_29"
 			(at 392.43 56.642 90)
 			(effects
 				(font
@@ -13487,6 +13667,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70919ce1-f9ac-495d-852d-fc5c9e9996a2")
 		)
@@ -13496,7 +13685,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_28")
+					(reference "D_29")
 					(unit 1)
 				)
 			)
@@ -13512,7 +13701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43543518-fe09-4631-a975-cb71b367e321")
-		(property "Reference" "C26"
+		(property "Reference" "C3"
 			(at 217.17 167.6399 0)
 			(effects
 				(font
@@ -13575,7 +13764,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C26")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13591,7 +13780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4378fab8-fbc8-4169-8a91-3a4760ae0f76")
-		(property "Reference" "C24"
+		(property "Reference" "C11"
 			(at 190.5 213.3599 0)
 			(effects
 				(font
@@ -13654,7 +13843,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C24")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13670,7 +13859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a7a25a-42c2-4fe5-ab8a-5c9dd2117e71")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR024"
 			(at 66.04 261.62 0)
 			(effects
 				(font
@@ -13720,7 +13909,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR030")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13735,7 +13924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48bcd24a-7fd7-4c89-b3c4-d82b82844386")
-		(property "Reference" "K_11"
+		(property "Reference" "K_12"
 			(at 314.96 19.4818 0)
 			(effects
 				(font
@@ -13743,7 +13932,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "minus"
 			(at 314.96 27.94 0)
 			(effects
 				(font
@@ -13752,7 +13941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 314.96 25.4 0)
 			(effects
 				(font
@@ -13787,7 +13976,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_11")
+					(reference "K_12")
 					(unit 1)
 				)
 			)
@@ -13803,7 +13992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ad97c91-4e60-4fb4-a6c6-5eef7efc73ab")
-		(property "Reference" "C25"
+		(property "Reference" "C12"
 			(at 203.2 213.3599 0)
 			(effects
 				(font
@@ -13866,7 +14055,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C25")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13881,7 +14070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b9773ab-4dc6-4520-8976-9f25752b64df")
-		(property "Reference" "K_21"
+		(property "Reference" "K_22"
 			(at 213.36 44.8818 0)
 			(effects
 				(font
@@ -13889,7 +14078,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "y"
 			(at 213.36 53.34 0)
 			(effects
 				(font
@@ -13898,7 +14087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 213.36 50.8 0)
 			(effects
 				(font
@@ -13933,7 +14122,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_21")
+					(reference "K_22")
 					(unit 1)
 				)
 			)
@@ -13948,7 +14137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c206225-1046-4ea5-9c49-864a53c879de")
-		(property "Reference" "K_22"
+		(property "Reference" "K_23"
 			(at 238.76 44.8818 0)
 			(effects
 				(font
@@ -13956,7 +14145,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "u"
 			(at 238.76 53.34 0)
 			(effects
 				(font
@@ -13965,7 +14154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 238.76 50.8 0)
 			(effects
 				(font
@@ -14000,7 +14189,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_22")
+					(reference "K_23")
 					(unit 1)
 				)
 			)
@@ -14015,7 +14204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c421e3e-e296-4d1e-a392-d3693e57cc4b")
-		(property "Reference" "K_40"
+		(property "Reference" "K_41"
 			(at 340.36 70.2818 0)
 			(effects
 				(font
@@ -14023,7 +14212,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "quote"
 			(at 340.36 78.74 0)
 			(effects
 				(font
@@ -14032,7 +14221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 340.36 76.2 0)
 			(effects
 				(font
@@ -14067,7 +14256,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_40")
+					(reference "K_41")
 					(unit 1)
 				)
 			)
@@ -14082,7 +14271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb7515a-0fa7-4cfe-8f88-20642cb93a80")
-		(property "Reference" "D_51"
+		(property "Reference" "D_52"
 			(at 290.83 107.442 90)
 			(effects
 				(font
@@ -14127,6 +14316,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 288.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "412917c7-069b-4387-b460-547e84e1ef00")
 		)
@@ -14136,7 +14334,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_51")
+					(reference "D_52")
 					(unit 1)
 				)
 			)
@@ -14152,7 +14350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db0a6c1-796c-4dee-84bc-2f698aac31eb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR013"
 			(at 220.98 200.66 0)
 			(effects
 				(font
@@ -14202,7 +14400,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR046")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14217,7 +14415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f43de7a-6bd6-4ca5-aac6-dac41e6fac9b")
-		(property "Reference" "K_34"
+		(property "Reference" "K_35"
 			(at 187.96 70.2818 0)
 			(effects
 				(font
@@ -14225,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "g"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -14234,7 +14432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -14269,7 +14467,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_34")
+					(reference "K_35")
 					(unit 1)
 				)
 			)
@@ -14285,7 +14483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "504794f2-7273-413c-9d8e-bc69b5aa5d99")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 68.2341 252.73 0)
 			(effects
 				(font
@@ -14513,7 +14711,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14529,7 +14727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50abe0b7-5199-4219-80e4-a26ed6dd1fda")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR05"
 			(at 140.97 168.91 0)
 			(effects
 				(font
@@ -14579,7 +14777,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR037")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14595,7 +14793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50bf1546-b533-42a7-a6d5-0d3d8f822fc8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR09"
 			(at 233.68 180.34 0)
 			(effects
 				(font
@@ -14645,7 +14843,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR048")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14660,7 +14858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5155aee3-4619-4594-a973-d66f4e6a9bcd")
-		(property "Reference" "K_57"
+		(property "Reference" "K_58"
 			(at 162.56 121.0818 0)
 			(effects
 				(font
@@ -14668,7 +14866,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "space"
 			(at 162.56 129.54 0)
 			(effects
 				(font
@@ -14677,7 +14875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 162.56 127 0)
 			(effects
 				(font
@@ -14712,7 +14910,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_57")
+					(reference "K_58")
 					(unit 1)
 				)
 			)
@@ -14727,7 +14925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "540cba61-ae48-4c7e-abc0-37eaa75e3798")
-		(property "Reference" "K_36"
+		(property "Reference" "K_37"
 			(at 238.76 70.2818 0)
 			(effects
 				(font
@@ -14735,7 +14933,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "j"
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -14744,7 +14942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 238.76 76.2 0)
 			(effects
 				(font
@@ -14779,7 +14977,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_36")
+					(reference "K_37")
 					(unit 1)
 				)
 			)
@@ -14795,7 +14993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5539acd4-da27-4f46-9564-4d4dd73b2a58")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR027"
 			(at 262.89 294.64 0)
 			(effects
 				(font
@@ -14845,7 +15043,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR051")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14860,7 +15058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59aec233-5b73-4ede-94db-c550fb46ae5b")
-		(property "Reference" "D_54"
+		(property "Reference" "D_55"
 			(at 392.43 107.442 90)
 			(effects
 				(font
@@ -14905,6 +15103,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 389.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9074cc0a-5e47-43f6-b4c0-ca3fdad6dfed")
 		)
@@ -14914,7 +15121,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_54")
+					(reference "D_55")
 					(unit 1)
 				)
 			)
@@ -14929,7 +15136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cfcb135-4dda-45b5-b8a6-002660c10fc3")
-		(property "Reference" "D_14"
+		(property "Reference" "D_15"
 			(at 392.43 31.242 90)
 			(effects
 				(font
@@ -14974,6 +15181,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 389.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58885f9d-b281-41c3-85cc-f69de1ac403e")
 		)
@@ -14983,7 +15199,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_14")
+					(reference "D_15")
 					(unit 1)
 				)
 			)
@@ -14998,7 +15214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d8dd1f6-7153-468c-908f-df30b4790b78")
-		(property "Reference" "D_4"
+		(property "Reference" "D_5"
 			(at 138.43 31.242 90)
 			(effects
 				(font
@@ -15043,6 +15259,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d46af9e-048e-4be4-9191-821d9b9c7ecb")
 		)
@@ -15052,7 +15277,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_4")
+					(reference "D_5")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5db5c56e-f317-4903-ba6b-e89dac12995d")
-		(property "Reference" "D_33"
+		(property "Reference" "D_34"
 			(at 163.83 82.042 90)
 			(effects
 				(font
@@ -15112,6 +15337,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e78b0903-6d5e-48a9-850d-bfd08b68313e")
 		)
@@ -15121,7 +15355,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_33")
+					(reference "D_34")
 					(unit 1)
 				)
 			)
@@ -15136,7 +15370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fd71dd3-21bb-4f6f-8d00-38763057772f")
-		(property "Reference" "K_29"
+		(property "Reference" "K_30"
 			(at 35.56 70.2818 0)
 			(effects
 				(font
@@ -15144,7 +15378,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "l_ctrl"
 			(at 35.56 78.74 0)
 			(effects
 				(font
@@ -15153,7 +15387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 35.56 76.2 0)
 			(effects
 				(font
@@ -15188,7 +15422,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_29")
+					(reference "K_30")
 					(unit 1)
 				)
 			)
@@ -15204,7 +15438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b875d6-4df3-4812-93a7-90f1ebd6224c")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 132.08 163.195 0)
 			(effects
 				(font
@@ -15254,7 +15488,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -15269,7 +15503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64d1c6d6-d90b-4d16-abf2-311eec35fe7e")
-		(property "Reference" "K_28"
+		(property "Reference" "K_29"
 			(at 391.16 44.8818 0)
 			(effects
 				(font
@@ -15277,7 +15511,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "bksp"
 			(at 391.16 53.34 0)
 			(effects
 				(font
@@ -15286,7 +15520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 391.16 50.8 0)
 			(effects
 				(font
@@ -15321,7 +15555,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_28")
+					(reference "K_29")
 					(unit 1)
 				)
 			)
@@ -15336,7 +15570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64d7dd89-41c1-48eb-b4ad-0a07db4bb98f")
-		(property "Reference" "K_24"
+		(property "Reference" "K_25"
 			(at 289.56 44.8818 0)
 			(effects
 				(font
@@ -15344,7 +15578,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "o"
 			(at 289.56 53.34 0)
 			(effects
 				(font
@@ -15353,7 +15587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 289.56 50.8 0)
 			(effects
 				(font
@@ -15388,7 +15622,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_24")
+					(reference "K_25")
 					(unit 1)
 				)
 			)
@@ -15404,7 +15638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658ba414-d5c7-4aab-aefc-e537efdb748b")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 163.83 184.15 0)
 			(effects
 				(font
@@ -15471,7 +15705,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15486,7 +15720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66b5200e-e41f-4d07-8588-90ea686701d1")
-		(property "Reference" "D_30"
+		(property "Reference" "D_31"
 			(at 87.63 82.042 90)
 			(effects
 				(font
@@ -15531,6 +15765,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ceb5b31b-e468-4c35-9a2b-f2495d3b7107")
 		)
@@ -15540,7 +15783,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_30")
+					(reference "D_31")
 					(unit 1)
 				)
 			)
@@ -15556,7 +15799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b0ebfa-7d31-4b71-aa84-ad3eb6779483")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 176.53 171.45 90)
 			(effects
 				(font
@@ -15617,7 +15860,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15632,7 +15875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "687a6ba0-c7a3-46d8-8f29-b525a6a8191e")
-		(property "Reference" "D_13"
+		(property "Reference" "D_14"
 			(at 367.03 31.242 90)
 			(effects
 				(font
@@ -15677,6 +15920,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 364.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f68a0861-5a01-42af-a226-de266c549527")
 		)
@@ -15686,7 +15938,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_13")
+					(reference "D_14")
 					(unit 1)
 				)
 			)
@@ -15701,7 +15953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "698b886f-7a27-44d1-87d7-a460d4be33d2")
-		(property "Reference" "D_42"
+		(property "Reference" "D_43"
 			(at 62.23 107.442 90)
 			(effects
 				(font
@@ -15746,6 +15998,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96caacac-eff7-4163-bb2a-3c8e10d33257")
 		)
@@ -15755,7 +16016,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_42")
+					(reference "D_43")
 					(unit 1)
 				)
 			)
@@ -15770,7 +16031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a761364-f3d8-4079-9bf5-41c5756d445c")
-		(property "Reference" "K_47"
+		(property "Reference" "K_48"
 			(at 187.96 95.6818 0)
 			(effects
 				(font
@@ -15778,7 +16039,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "b"
 			(at 187.96 104.14 0)
 			(effects
 				(font
@@ -15787,7 +16048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -15822,7 +16083,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_47")
+					(reference "K_48")
 					(unit 1)
 				)
 			)
@@ -15837,7 +16098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b114f0d-b2e5-429f-9754-0c597614c831")
-		(property "Reference" "D_27"
+		(property "Reference" "D_28"
 			(at 367.03 56.642 90)
 			(effects
 				(font
@@ -15882,6 +16143,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 364.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa17147b-4e89-41fb-8ecc-8349ca08f733")
 		)
@@ -15891,7 +16161,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_27")
+					(reference "D_28")
 					(unit 1)
 				)
 			)
@@ -15906,7 +16176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c3902c3-307e-4f1a-af67-c78e2c4e3908")
-		(property "Reference" "K_42"
+		(property "Reference" "K_43"
 			(at 60.96 95.6818 0)
 			(effects
 				(font
@@ -15914,7 +16184,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "l_shift"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -15923,7 +16193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -15958,7 +16228,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_42")
+					(reference "K_43")
 					(unit 1)
 				)
 			)
@@ -15973,7 +16243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "722fb8ba-0575-4fc8-9742-58075a638077")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 251.46 160.782 90)
 			(effects
 				(font
@@ -16040,7 +16310,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -16055,7 +16325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7577aa34-67e4-4d3a-8630-3b6b47eb773a")
-		(property "Reference" "D_45"
+		(property "Reference" "D_46"
 			(at 138.43 107.442 90)
 			(effects
 				(font
@@ -16100,6 +16370,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "badee5ff-f541-440f-ada8-3718c6b8b590")
 		)
@@ -16109,7 +16388,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_45")
+					(reference "D_46")
 					(unit 1)
 				)
 			)
@@ -16125,7 +16404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7665e931-b64f-4df2-9f0f-6a387e6faffb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR020"
 			(at 133.35 240.03 0)
 			(effects
 				(font
@@ -16175,7 +16454,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR035")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16190,7 +16469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76a68ee9-b53c-4441-b8a8-7656ca78ae53")
-		(property "Reference" "D_59"
+		(property "Reference" "D_60"
 			(at 240.03 132.842 90)
 			(effects
 				(font
@@ -16235,6 +16514,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f3552be-0049-4341-8360-5a69f0fd3751")
 		)
@@ -16244,7 +16532,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_59")
+					(reference "D_60")
 					(unit 1)
 				)
 			)
@@ -16260,7 +16548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7772bb78-5d13-437a-b1e1-a0fc090e27e6")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 119.38 227.33 0)
 			(effects
 				(font
@@ -16276,7 +16564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "random-keyboard-parts:Reset_Pretty-Mask"
+		(property "Footprint" "local:Reset_Pretty-Mask_rp2040"
 			(at 119.38 241.3 0)
 			(effects
 				(font
@@ -16333,7 +16621,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16348,7 +16636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77e0a755-730e-4404-8305-24cc2864bcf4")
-		(property "Reference" "K_9"
+		(property "Reference" "K_10"
 			(at 264.16 19.4818 0)
 			(effects
 				(font
@@ -16356,7 +16644,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "9"
 			(at 264.16 27.94 0)
 			(effects
 				(font
@@ -16365,7 +16653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 264.16 25.4 0)
 			(effects
 				(font
@@ -16400,7 +16688,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_9")
+					(reference "K_10")
 					(unit 1)
 				)
 			)
@@ -16416,7 +16704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bf3bbbf-af17-49a8-8bef-0dbc2b6ef009")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR02"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -16466,7 +16754,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR029")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16481,7 +16769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c27b1de-623c-48ff-beab-47fa71a1755e")
-		(property "Reference" "K_7"
+		(property "Reference" "K_8"
 			(at 213.36 19.4818 0)
 			(effects
 				(font
@@ -16489,7 +16777,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "7"
 			(at 213.36 27.94 0)
 			(effects
 				(font
@@ -16498,7 +16786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 213.36 25.4 0)
 			(effects
 				(font
@@ -16533,7 +16821,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_7")
+					(reference "K_8")
 					(unit 1)
 				)
 			)
@@ -16548,7 +16836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d759c5e-d46e-4a6d-ab57-bd1faa5d60f6")
-		(property "Reference" "K_27"
+		(property "Reference" "K_28"
 			(at 365.76 44.8818 0)
 			(effects
 				(font
@@ -16556,7 +16844,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "r_brace"
 			(at 365.76 53.34 0)
 			(effects
 				(font
@@ -16565,7 +16853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 365.76 50.8 0)
 			(effects
 				(font
@@ -16600,7 +16888,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_27")
+					(reference "K_28")
 					(unit 1)
 				)
 			)
@@ -16615,7 +16903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fa37d06-d048-41a3-b2ee-5d80905914f4")
-		(property "Reference" "K_56"
+		(property "Reference" "K_57"
 			(at 111.76 121.0818 0)
 			(effects
 				(font
@@ -16623,7 +16911,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "l_alt"
 			(at 111.76 129.54 0)
 			(effects
 				(font
@@ -16632,7 +16920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -16667,7 +16955,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_56")
+					(reference "K_57")
 					(unit 1)
 				)
 			)
@@ -16682,7 +16970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fb38fb8-614c-45fe-98c0-2b641bc0c784")
-		(property "Reference" "D_26"
+		(property "Reference" "D_27"
 			(at 341.63 56.642 90)
 			(effects
 				(font
@@ -16727,6 +17015,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 339.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "921cfb50-6691-4cbe-b89a-cc33308d4052")
 		)
@@ -16736,7 +17033,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_26")
+					(reference "D_27")
 					(unit 1)
 				)
 			)
@@ -16751,7 +17048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84837430-656b-4a72-b7c7-b073dc0978e3")
-		(property "Reference" "D_60"
+		(property "Reference" "D_61"
 			(at 290.83 132.842 90)
 			(effects
 				(font
@@ -16796,6 +17093,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 288.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acad5e55-cc4b-4c59-b78c-77ae12568903")
 		)
@@ -16805,7 +17111,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_60")
+					(reference "D_61")
 					(unit 1)
 				)
 			)
@@ -16821,7 +17127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ad130c-e6a8-44a5-ae64-658d38c8f31e")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 271.78 273.0499 0)
 			(effects
 				(font
@@ -16902,7 +17208,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -16917,7 +17223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a2b60b-5931-4224-a553-08c522afeea9")
-		(property "Reference" "K_4"
+		(property "Reference" "K_5"
 			(at 137.16 19.4818 0)
 			(effects
 				(font
@@ -16925,7 +17231,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "4"
 			(at 137.16 27.94 0)
 			(effects
 				(font
@@ -16934,7 +17240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 137.16 25.4 0)
 			(effects
 				(font
@@ -16969,7 +17275,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_4")
+					(reference "K_5")
 					(unit 1)
 				)
 			)
@@ -16985,7 +17291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a97f25a-304d-466e-a400-6c04ba5d1786")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -17035,7 +17341,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17050,7 +17356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c95f985-676c-495f-b4d5-93461ae97c5b")
-		(property "Reference" "D_50"
+		(property "Reference" "D_51"
 			(at 265.43 107.442 90)
 			(effects
 				(font
@@ -17095,6 +17401,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 262.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29c6f193-972d-4279-aacb-a888e2ee0395")
 		)
@@ -17104,7 +17419,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_50")
+					(reference "D_51")
 					(unit 1)
 				)
 			)
@@ -17120,7 +17435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e8ae3ac-8c2d-4533-9c6c-6e8c1058179b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR018"
 			(at 111.76 224.79 0)
 			(effects
 				(font
@@ -17170,7 +17485,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR033")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17186,7 +17501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ee9ad60-5b6f-4d0e-b5cd-baa5543f149b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR03"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -17236,7 +17551,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR031")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -17251,7 +17566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90d30d97-2f00-475d-a20f-1f4321b09f24")
-		(property "Reference" "K_13"
+		(property "Reference" "K_14"
 			(at 365.76 19.4818 0)
 			(effects
 				(font
@@ -17259,7 +17574,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "bash"
 			(at 365.76 27.94 0)
 			(effects
 				(font
@@ -17268,7 +17583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 365.76 25.4 0)
 			(effects
 				(font
@@ -17303,7 +17618,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_13")
+					(reference "K_14")
 					(unit 1)
 				)
 			)
@@ -17319,7 +17634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e8e556-5b2a-4b53-aa99-d4bdde8fbd2a")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 241.3 260.35 90)
 			(effects
 				(font
@@ -17380,7 +17695,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -17395,7 +17710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92911225-8ed3-477d-8592-8741020169a6")
-		(property "Reference" "D_43"
+		(property "Reference" "D_44"
 			(at 87.63 107.442 90)
 			(effects
 				(font
@@ -17440,6 +17755,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 85.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00632e75-3235-45fb-a0c3-e259bc5dea0c")
 		)
@@ -17449,7 +17773,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_43")
+					(reference "D_44")
 					(unit 1)
 				)
 			)
@@ -17465,7 +17789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c9e2c0-f082-4bf5-8a4f-4f46bbe35668")
-		(property "Reference" "C19"
+		(property "Reference" "C7"
 			(at 138.43 213.3599 0)
 			(effects
 				(font
@@ -17528,7 +17852,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C19")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -17543,7 +17867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94fc8166-79d3-4863-8646-58a4bb984463")
-		(property "Reference" "K_60"
+		(property "Reference" "K_61"
 			(at 289.56 121.0818 0)
 			(effects
 				(font
@@ -17551,7 +17875,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "r_alt"
 			(at 289.56 129.54 0)
 			(effects
 				(font
@@ -17560,7 +17884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 289.56 127 0)
 			(effects
 				(font
@@ -17595,7 +17919,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_60")
+					(reference "K_61")
 					(unit 1)
 				)
 			)
@@ -17610,7 +17934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97e7da79-ba1d-427d-b330-3b1e0200e409")
-		(property "Reference" "K_32"
+		(property "Reference" "K_33"
 			(at 137.16 70.2818 0)
 			(effects
 				(font
@@ -17618,7 +17942,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "d"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -17627,7 +17951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 137.16 76.2 0)
 			(effects
 				(font
@@ -17662,7 +17986,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_32")
+					(reference "K_33")
 					(unit 1)
 				)
 			)
@@ -17677,7 +18001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9835b4ca-fcbd-41a4-a718-6368c995852f")
-		(property "Reference" "K_54"
+		(property "Reference" "K_55"
 			(at 391.16 95.6818 0)
 			(effects
 				(font
@@ -17685,7 +18009,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "mo1"
 			(at 391.16 104.14 0)
 			(effects
 				(font
@@ -17694,7 +18018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 391.16 101.6 0)
 			(effects
 				(font
@@ -17729,7 +18053,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_54")
+					(reference "K_55")
 					(unit 1)
 				)
 			)
@@ -17744,7 +18068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98a38fbc-cb06-4c16-bb16-c7615988fc06")
-		(property "Reference" "D_36"
+		(property "Reference" "D_37"
 			(at 240.03 82.042 90)
 			(effects
 				(font
@@ -17789,6 +18113,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 237.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "241f0413-318f-428a-8861-1015fd7d03d7")
 		)
@@ -17798,7 +18131,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_36")
+					(reference "D_37")
 					(unit 1)
 				)
 			)
@@ -17813,7 +18146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98b043bf-bb8e-476e-87cd-c2a838f29b19")
-		(property "Reference" "K_3"
+		(property "Reference" "K_4"
 			(at 111.76 19.4818 0)
 			(effects
 				(font
@@ -17821,7 +18154,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "3"
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -17830,7 +18163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 111.76 25.4 0)
 			(effects
 				(font
@@ -17865,7 +18198,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_3")
+					(reference "K_4")
 					(unit 1)
 				)
 			)
@@ -17880,7 +18213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9afe8093-32cd-4297-96c9-7c4fbf6e1b5f")
-		(property "Reference" "D_56"
+		(property "Reference" "D_57"
 			(at 113.03 132.842 90)
 			(effects
 				(font
@@ -17925,6 +18258,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5dcf97c-5930-4561-9fba-23c9d7c54cd4")
 		)
@@ -17934,7 +18276,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_56")
+					(reference "D_57")
 					(unit 1)
 				)
 			)
@@ -17949,7 +18291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bfe8b9d-d5f9-44aa-b30b-542133b53e70")
-		(property "Reference" "K_58"
+		(property "Reference" "K_59"
 			(at 187.96 121.0818 0)
 			(effects
 				(font
@@ -17957,7 +18299,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "mo2"
 			(at 187.96 129.54 0)
 			(effects
 				(font
@@ -17966,7 +18308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 187.96 127 0)
 			(effects
 				(font
@@ -18001,7 +18343,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_58")
+					(reference "K_59")
 					(unit 1)
 				)
 			)
@@ -18017,7 +18359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c45f341-8d83-428c-83b7-8ee041e11bbe")
-		(property "Reference" "C29"
+		(property "Reference" "C15"
 			(at 242.57 213.3599 0)
 			(effects
 				(font
@@ -18080,7 +18422,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C29")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18095,7 +18437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e08628d-7ff3-4551-a6cd-d3d85f78e3b8")
-		(property "Reference" "K_35"
+		(property "Reference" "K_36"
 			(at 213.36 70.2818 0)
 			(effects
 				(font
@@ -18103,7 +18445,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "h"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -18112,7 +18454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -18147,7 +18489,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_35")
+					(reference "K_36")
 					(unit 1)
 				)
 			)
@@ -18163,7 +18505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e35fb9f-1abf-452a-a22a-6e72158a2bc2")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG04"
 			(at 222.885 191.77 0)
 			(effects
 				(font
@@ -18214,7 +18556,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#FLG08")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -18229,7 +18571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e64011e-dd60-416f-8e17-d1364c7c3510")
-		(property "Reference" "K_16"
+		(property "Reference" "K_17"
 			(at 86.36 44.8818 0)
 			(effects
 				(font
@@ -18237,7 +18579,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "q"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -18246,7 +18588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -18281,7 +18623,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_16")
+					(reference "K_17")
 					(unit 1)
 				)
 			)
@@ -18296,7 +18638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a017751e-cd39-48af-afb5-3da5b2b93503")
-		(property "Reference" "K_50"
+		(property "Reference" "K_51"
 			(at 264.16 95.6818 0)
 			(effects
 				(font
@@ -18304,7 +18646,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "comma"
 			(at 264.16 104.14 0)
 			(effects
 				(font
@@ -18313,7 +18655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 264.16 101.6 0)
 			(effects
 				(font
@@ -18348,7 +18690,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_50")
+					(reference "K_51")
 					(unit 1)
 				)
 			)
@@ -18363,7 +18705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0a0af51-f325-4d9f-a9a7-3ba05dfdea88")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 148.59 187.9599 0)
 			(effects
 				(font
@@ -18426,7 +18768,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -18442,7 +18784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a17625e1-28ed-4731-8771-f588d8ed2f23")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR017"
 			(at 215.9 214.63 0)
 			(effects
 				(font
@@ -18492,7 +18834,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR044")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18507,7 +18849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a22f23b6-28b7-4b19-88be-3b89bc9d9f6f")
-		(property "Reference" "D_20"
+		(property "Reference" "D_21"
 			(at 189.23 56.642 90)
 			(effects
 				(font
@@ -18552,6 +18894,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2a1f5f0-f500-4dee-8b9f-a84df3d1746b")
 		)
@@ -18561,7 +18912,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_20")
+					(reference "D_21")
 					(unit 1)
 				)
 			)
@@ -18576,7 +18927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4721ba9-621b-474b-a9fe-b498796035e7")
-		(property "Reference" "D_2"
+		(property "Reference" "D_3"
 			(at 87.63 31.242 90)
 			(effects
 				(font
@@ -18621,6 +18972,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea08813e-28c3-4285-acd2-f945069b0464")
 		)
@@ -18630,7 +18990,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_2")
+					(reference "D_3")
 					(unit 1)
 				)
 			)
@@ -18645,7 +19005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5a5a8ce-a123-443b-9e17-6b44e2b8b847")
-		(property "Reference" "K_31"
+		(property "Reference" "K_32"
 			(at 111.76 70.2818 0)
 			(effects
 				(font
@@ -18653,7 +19013,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "s"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -18662,7 +19022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 111.76 76.2 0)
 			(effects
 				(font
@@ -18697,7 +19057,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_31")
+					(reference "K_32")
 					(unit 1)
 				)
 			)
@@ -18712,7 +19072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a74c0320-db5e-4fc6-a50c-f8f9fcbe78ae")
-		(property "Reference" "K_25"
+		(property "Reference" "K_26"
 			(at 314.96 44.8818 0)
 			(effects
 				(font
@@ -18720,7 +19080,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "p"
 			(at 314.96 53.34 0)
 			(effects
 				(font
@@ -18729,7 +19089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 314.96 50.8 0)
 			(effects
 				(font
@@ -18764,7 +19124,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_25")
+					(reference "K_26")
 					(unit 1)
 				)
 			)
@@ -18780,7 +19140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8930805-ba09-4f3e-b5bb-049288f990cd")
-		(property "Reference" "C27"
+		(property "Reference" "C13"
 			(at 219.71 213.3599 0)
 			(effects
 				(font
@@ -18843,7 +19203,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C27")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18858,7 +19218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9f5b34f-908c-4d34-b05f-cf532c7dd658")
-		(property "Reference" "K_2"
+		(property "Reference" "K_3"
 			(at 86.36 19.4818 0)
 			(effects
 				(font
@@ -18866,7 +19226,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "2"
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -18875,7 +19235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -18910,7 +19270,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_2")
+					(reference "K_3")
 					(unit 1)
 				)
 			)
@@ -18925,7 +19285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaa0913c-75e4-4857-a658-00a80a0b14a4")
-		(property "Reference" "D_58"
+		(property "Reference" "D_59"
 			(at 189.23 132.842 90)
 			(effects
 				(font
@@ -18970,6 +19330,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c6afd1b-ee13-430c-9cd5-af4b8a739916")
 		)
@@ -18979,7 +19348,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_58")
+					(reference "D_59")
 					(unit 1)
 				)
 			)
@@ -18995,7 +19364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac33d57e-490f-4ae5-8f9c-f95b4460fb0c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR016"
 			(at 111.76 214.63 0)
 			(effects
 				(font
@@ -19045,7 +19414,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR032")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19060,7 +19429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b06a2ad5-e82d-404a-8086-9006dc6f2418")
-		(property "Reference" "D_12"
+		(property "Reference" "D_13"
 			(at 341.63 31.242 90)
 			(effects
 				(font
@@ -19105,6 +19474,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 339.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e7749ea-591c-4e3f-8996-fe42a0af5e6e")
 		)
@@ -19114,7 +19492,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_12")
+					(reference "D_13")
 					(unit 1)
 				)
 			)
@@ -19130,7 +19508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a04533-f87d-400f-8876-4a0257bdca93")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 229.87 213.3599 0)
 			(effects
 				(font
@@ -19193,7 +19571,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C28")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -19209,7 +19587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b47f64fc-aff0-472d-95e1-af7ab66ae245")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR010"
 			(at 251.46 180.34 0)
 			(effects
 				(font
@@ -19259,7 +19637,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR049")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19274,7 +19652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4ab984d-e637-4f31-97ee-3f948dd95d5e")
-		(property "Reference" "D_31"
+		(property "Reference" "D_32"
 			(at 113.03 82.042 90)
 			(effects
 				(font
@@ -19319,6 +19697,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85c57f2c-9118-4a39-967a-258509d308bd")
 		)
@@ -19328,7 +19715,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_31")
+					(reference "D_32")
 					(unit 1)
 				)
 			)
@@ -19344,7 +19731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b50a2fa2-24b7-4261-8056-e703b6b1890f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR015"
 			(at 124.46 203.2 0)
 			(effects
 				(font
@@ -19394,7 +19781,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR01")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19410,7 +19797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b54e9f95-23f5-4a01-a5ac-afbe6a613473")
-		(property "Reference" "USB2"
+		(property "Reference" "USB1"
 			(at 116.205 156.21 0)
 			(effects
 				(font
@@ -19453,7 +19840,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C165948"
 			(at 121.92 176.53 0)
 			(effects
 				(font
@@ -19504,7 +19891,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "USB2")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
@@ -19520,7 +19907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b58f782a-5318-438e-a94d-1468bc3e3f22")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR019"
 			(at 215.9 224.79 0)
 			(effects
 				(font
@@ -19570,7 +19957,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR045")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -19586,7 +19973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6987933-6745-4227-969f-a6bacbfa1df1")
-		(property "Reference" "C30"
+		(property "Reference" "C1"
 			(at 240.03 158.75 90)
 			(effects
 				(font
@@ -19647,7 +20034,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C30")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -19662,7 +20049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7048353-04e7-44b0-b0c9-484d1b70eca1")
-		(property "Reference" "D_15"
+		(property "Reference" "D_16"
 			(at 36.83 56.642 90)
 			(effects
 				(font
@@ -19707,6 +20094,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f429edf-a32c-49a1-9a82-f09ee6129874")
 		)
@@ -19716,7 +20112,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_15")
+					(reference "D_16")
 					(unit 1)
 				)
 			)
@@ -19732,7 +20128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba1c76cc-c6bf-4816-b3bd-027af6ed19c3")
-		(property "Reference" "C21"
+		(property "Reference" "C9"
 			(at 163.83 213.3599 0)
 			(effects
 				(font
@@ -19795,7 +20191,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C21")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19810,7 +20206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba7faed7-3075-408c-b6b5-a21b96ddc7c0")
-		(property "Reference" "K_20"
+		(property "Reference" "K_21"
 			(at 187.96 44.8818 0)
 			(effects
 				(font
@@ -19818,7 +20214,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "t"
 			(at 187.96 53.34 0)
 			(effects
 				(font
@@ -19827,7 +20223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -19862,7 +20258,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_20")
+					(reference "K_21")
 					(unit 1)
 				)
 			)
@@ -19878,7 +20274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb2aa056-e70a-4ea1-bc97-42e5fa121dce")
-		(property "Reference" "C18"
+		(property "Reference" "C6"
 			(at 125.73 213.3599 0)
 			(effects
 				(font
@@ -19941,7 +20337,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C18")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19956,7 +20352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb2ef16a-697f-47a1-ac9d-4f90d9853526")
-		(property "Reference" "K_59"
+		(property "Reference" "K_60"
 			(at 238.76 121.0818 0)
 			(effects
 				(font
@@ -19964,7 +20360,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "space"
 			(at 238.76 129.54 0)
 			(effects
 				(font
@@ -19973,7 +20369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 238.76 127 0)
 			(effects
 				(font
@@ -20008,7 +20404,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_59")
+					(reference "K_60")
 					(unit 1)
 				)
 			)
@@ -20023,7 +20419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb5c1562-55a1-480b-8c4a-c845d5cfa88e")
-		(property "Reference" "D_39"
+		(property "Reference" "D_40"
 			(at 316.23 82.042 90)
 			(effects
 				(font
@@ -20068,6 +20464,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 313.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f71e45f-afae-4d54-b321-05b9f09f4c91")
 		)
@@ -20077,7 +20482,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_39")
+					(reference "D_40")
 					(unit 1)
 				)
 			)
@@ -20092,7 +20497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcbd0b29-f21c-40dd-abfa-144c8e3c21e3")
-		(property "Reference" "K_43"
+		(property "Reference" "K_44"
 			(at 86.36 95.6818 0)
 			(effects
 				(font
@@ -20100,7 +20505,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "z"
 			(at 86.36 104.14 0)
 			(effects
 				(font
@@ -20109,7 +20514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -20144,7 +20549,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_43")
+					(reference "K_44")
 					(unit 1)
 				)
 			)
@@ -20159,7 +20564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd94b59f-efce-4a97-9689-eb3dc24e4bbf")
-		(property "Reference" "K_46"
+		(property "Reference" "K_47"
 			(at 162.56 95.6818 0)
 			(effects
 				(font
@@ -20167,7 +20572,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "v"
 			(at 162.56 104.14 0)
 			(effects
 				(font
@@ -20176,7 +20581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -20211,7 +20616,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_46")
+					(reference "K_47")
 					(unit 1)
 				)
 			)
@@ -20227,7 +20632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bece0026-1c09-42b2-9594-6107b452b2f3")
-		(property "Reference" "C22"
+		(property "Reference" "C10"
 			(at 177.8 213.3599 0)
 			(effects
 				(font
@@ -20290,7 +20695,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C22")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20305,7 +20710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfc9cf2a-ecbc-4067-9e38-2098aa87f143")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 133.35 247.65 0)
 			(effects
 				(font
@@ -20355,7 +20760,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR036")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -20371,7 +20776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1572e99-309c-4625-97c7-f1fe10196f87")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR08"
 			(at 195.58 180.34 0)
 			(effects
 				(font
@@ -20421,7 +20826,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR041")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20436,7 +20841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3b4f6e1-9a67-4aef-a6ec-ae36dbeb78c3")
-		(property "Reference" "D_41"
+		(property "Reference" "D_42"
 			(at 367.03 82.042 90)
 			(effects
 				(font
@@ -20481,6 +20886,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 364.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7349e9d7-0103-45f4-a51a-987243b3ea68")
 		)
@@ -20490,7 +20904,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_41")
+					(reference "D_42")
 					(unit 1)
 				)
 			)
@@ -20506,7 +20920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41ba65d-4a84-4439-9ce0-717d74902ef5")
-		(property "Reference" "C20"
+		(property "Reference" "C8"
 			(at 151.13 213.3599 0)
 			(effects
 				(font
@@ -20569,7 +20983,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C20")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -20584,7 +20998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6e97b1d-76bc-419f-9ae2-e445cc8f9d38")
-		(property "Reference" "K_0"
+		(property "Reference" "K_1"
 			(at 35.56 19.4818 0)
 			(effects
 				(font
@@ -20592,7 +21006,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "esc"
 			(at 35.56 27.94 0)
 			(effects
 				(font
@@ -20601,7 +21015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 35.56 25.4 0)
 			(effects
 				(font
@@ -20636,7 +21050,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_0")
+					(reference "K_1")
 					(unit 1)
 				)
 			)
@@ -20651,7 +21065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c913ccec-379b-4b34-87e6-6c874ca30fcf")
-		(property "Reference" "K_18"
+		(property "Reference" "K_19"
 			(at 137.16 44.8818 0)
 			(effects
 				(font
@@ -20659,7 +21073,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "e"
 			(at 137.16 53.34 0)
 			(effects
 				(font
@@ -20668,7 +21082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 137.16 50.8 0)
 			(effects
 				(font
@@ -20703,7 +21117,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_18")
+					(reference "K_19")
 					(unit 1)
 				)
 			)
@@ -20718,7 +21132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9a7f08a-5ede-4540-a628-f963c2e04322")
-		(property "Reference" "K_1"
+		(property "Reference" "K_2"
 			(at 60.96 19.4818 0)
 			(effects
 				(font
@@ -20726,7 +21140,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "1"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -20735,7 +21149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 60.96 25.4 0)
 			(effects
 				(font
@@ -20770,7 +21184,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_1")
+					(reference "K_2")
 					(unit 1)
 				)
 			)
@@ -20785,7 +21199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca0a2b3c-1b59-4a01-8f2b-fc6790f667c7")
-		(property "Reference" "K_49"
+		(property "Reference" "K_50"
 			(at 238.76 95.6818 0)
 			(effects
 				(font
@@ -20793,7 +21207,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "m"
 			(at 238.76 104.14 0)
 			(effects
 				(font
@@ -20802,7 +21216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -20837,7 +21251,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_49")
+					(reference "K_50")
 					(unit 1)
 				)
 			)
@@ -20852,7 +21266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca4cc5fa-5bec-4684-b26f-bb0a3d70e246")
-		(property "Reference" "K_48"
+		(property "Reference" "K_49"
 			(at 213.36 95.6818 0)
 			(effects
 				(font
@@ -20860,7 +21274,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "n"
 			(at 213.36 104.14 0)
 			(effects
 				(font
@@ -20869,7 +21283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -20904,7 +21318,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_48")
+					(reference "K_49")
 					(unit 1)
 				)
 			)
@@ -20919,7 +21333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca54b9a2-aad8-4975-a2f7-21032e4f7385")
-		(property "Reference" "K_15"
+		(property "Reference" "K_16"
 			(at 35.56 44.8818 0)
 			(effects
 				(font
@@ -20927,7 +21341,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "tab"
 			(at 35.56 53.34 0)
 			(effects
 				(font
@@ -20936,7 +21350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 35.56 50.8 0)
 			(effects
 				(font
@@ -20971,7 +21385,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_15")
+					(reference "K_16")
 					(unit 1)
 				)
 			)
@@ -20986,7 +21400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca5ee3af-1634-4987-b5ea-709c9d92b881")
-		(property "Reference" "D_0"
+		(property "Reference" "D_1"
 			(at 36.83 31.242 90)
 			(effects
 				(font
@@ -21031,6 +21445,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36cddad4-6f06-414d-9987-54c448ec13c3")
 		)
@@ -21040,7 +21463,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_0")
+					(reference "D_1")
 					(unit 1)
 				)
 			)
@@ -21055,7 +21478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca92b50a-314b-423a-9152-c23a9d89812b")
-		(property "Reference" "D_46"
+		(property "Reference" "D_47"
 			(at 163.83 107.442 90)
 			(effects
 				(font
@@ -21100,6 +21523,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e2021b5-fe5f-4fc6-81b3-7e51697feaba")
 		)
@@ -21109,7 +21541,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_46")
+					(reference "D_47")
 					(unit 1)
 				)
 			)
@@ -21125,7 +21557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc3452f3-77df-49b0-bd18-bfb2141577f8")
-		(property "Reference" "C17"
+		(property "Reference" "C5"
 			(at 115.57 213.3599 0)
 			(effects
 				(font
@@ -21188,7 +21620,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C17")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21203,7 +21635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd271fe1-1376-4564-bac6-92198b495310")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 41.91 161.2899 0)
 			(effects
 				(font
@@ -21266,7 +21698,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21281,7 +21713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf7e157-615a-4926-b48e-5e790931c8a3")
-		(property "Reference" "D_16"
+		(property "Reference" "D_17"
 			(at 87.63 56.642 90)
 			(effects
 				(font
@@ -21326,6 +21758,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5aa0905f-0d47-4953-aa2b-c46e2697ca79")
 		)
@@ -21335,7 +21776,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_16")
+					(reference "D_17")
 					(unit 1)
 				)
 			)
@@ -21350,7 +21791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d093067e-4125-42f0-b837-2302407bb8dc")
-		(property "Reference" "K_33"
+		(property "Reference" "K_34"
 			(at 162.56 70.2818 0)
 			(effects
 				(font
@@ -21358,7 +21799,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "f"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -21367,7 +21808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -21402,7 +21843,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_33")
+					(reference "K_34")
 					(unit 1)
 				)
 			)
@@ -21418,7 +21859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d16ae9a9-ff88-4fbf-befe-2218c79f25c5")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG02"
 			(at 154.94 163.195 0)
 			(effects
 				(font
@@ -21468,7 +21909,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#FLG06")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -21483,7 +21924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1d65a34-2c80-41ea-b752-945967c74d92")
-		(property "Reference" "D_38"
+		(property "Reference" "D_39"
 			(at 290.83 82.042 90)
 			(effects
 				(font
@@ -21528,6 +21969,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 288.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2d5a1ce-361a-4681-b7a5-0bb4beddcff7")
 		)
@@ -21537,7 +21987,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_38")
+					(reference "D_39")
 					(unit 1)
 				)
 			)
@@ -21552,7 +22002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25449d4-e59f-4ade-a870-8b77d81ae8ca")
-		(property "Reference" "K_30"
+		(property "Reference" "K_31"
 			(at 86.36 70.2818 0)
 			(effects
 				(font
@@ -21560,7 +22010,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "a"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -21569,7 +22019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 86.36 76.2 0)
 			(effects
 				(font
@@ -21604,7 +22054,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_30")
+					(reference "K_31")
 					(unit 1)
 				)
 			)
@@ -21620,7 +22070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29c99b3-2b5c-4337-ac99-81ca6eaac779")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR025"
 			(at 274.32 266.7 0)
 			(effects
 				(font
@@ -21670,7 +22120,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#PWR052")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -21686,7 +22136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d360da72-d8bf-433a-924f-d6592d47cd94")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 195.58 158.75 0)
 			(effects
 				(font
@@ -21750,7 +22200,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -21765,7 +22215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3984b9f-87e6-4725-9105-0eb8c197acc5")
-		(property "Reference" "D_9"
+		(property "Reference" "D_10"
 			(at 265.43 31.242 90)
 			(effects
 				(font
@@ -21810,6 +22260,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 262.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba086b30-9f8d-467d-8a0c-1c67c323ba8e")
 		)
@@ -21819,7 +22278,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_9")
+					(reference "D_10")
 					(unit 1)
 				)
 			)
@@ -21834,7 +22293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5218bf0-b265-4cd5-9c4b-9163dd0c3c10")
-		(property "Reference" "D_25"
+		(property "Reference" "D_26"
 			(at 316.23 56.642 90)
 			(effects
 				(font
@@ -21879,6 +22338,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 313.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1f8ce13-93f1-4825-8171-2ce4c5cd1904")
 		)
@@ -21888,7 +22356,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_25")
+					(reference "D_26")
 					(unit 1)
 				)
 			)
@@ -21904,7 +22372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67d2834-3742-4a9a-97b1-e6a9d9e3d690")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 147.32 158.75 90)
 			(effects
 				(font
@@ -21966,7 +22434,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -21981,7 +22449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7d47fcc-241d-4a42-8321-c69d8fdf20a9")
-		(property "Reference" "D_53"
+		(property "Reference" "D_54"
 			(at 367.03 107.442 90)
 			(effects
 				(font
@@ -22026,6 +22494,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 364.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b042b9-2b58-40f0-a237-859a7460107b")
 		)
@@ -22035,7 +22512,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_53")
+					(reference "D_54")
 					(unit 1)
 				)
 			)
@@ -22050,7 +22527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7f7c5de-7a95-4862-8073-eba61b06c654")
-		(property "Reference" "D_1"
+		(property "Reference" "D_2"
 			(at 62.23 31.242 90)
 			(effects
 				(font
@@ -22095,6 +22572,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1ca0879-15c4-41c9-80dd-e7db76e48e41")
 		)
@@ -22104,7 +22590,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_1")
+					(reference "D_2")
 					(unit 1)
 				)
 			)
@@ -22119,7 +22605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dab1f5b5-a985-4e32-b395-21d6be51caf2")
-		(property "Reference" "K_12"
+		(property "Reference" "K_13"
 			(at 340.36 19.4818 0)
 			(effects
 				(font
@@ -22127,7 +22613,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "equals"
 			(at 340.36 27.94 0)
 			(effects
 				(font
@@ -22136,7 +22622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 340.36 25.4 0)
 			(effects
 				(font
@@ -22171,7 +22657,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_12")
+					(reference "K_13")
 					(unit 1)
 				)
 			)
@@ -22187,7 +22673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db1023c0-5c78-44e2-ae86-52b1b7674217")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 139.7 187.9599 0)
 			(effects
 				(font
@@ -22250,7 +22736,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -22265,7 +22751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db53cefb-5435-4a05-b7a6-9a1bec36c6a4")
-		(property "Reference" "K_51"
+		(property "Reference" "K_52"
 			(at 289.56 95.6818 0)
 			(effects
 				(font
@@ -22273,7 +22759,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "dot"
 			(at 289.56 104.14 0)
 			(effects
 				(font
@@ -22282,7 +22768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 289.56 101.6 0)
 			(effects
 				(font
@@ -22317,7 +22803,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_51")
+					(reference "K_52")
 					(unit 1)
 				)
 			)
@@ -22332,7 +22818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc6ce011-255d-4035-8b19-19f273152e0c")
-		(property "Reference" "D_47"
+		(property "Reference" "D_48"
 			(at 189.23 107.442 90)
 			(effects
 				(font
@@ -22377,6 +22863,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 186.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ca73970-1c69-405f-a482-25940d3fcfb2")
 		)
@@ -22386,7 +22881,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_47")
+					(reference "D_48")
 					(unit 1)
 				)
 			)
@@ -22401,7 +22896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd2adf6f-97b5-433d-a741-8be239cbab19")
-		(property "Reference" "D_40"
+		(property "Reference" "D_41"
 			(at 341.63 82.042 90)
 			(effects
 				(font
@@ -22446,6 +22941,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 339.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e525a40c-96c8-4e28-a7b0-c8f018e36cfc")
 		)
@@ -22455,7 +22959,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_40")
+					(reference "D_41")
 					(unit 1)
 				)
 			)
@@ -22471,7 +22975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd55a7bf-5a36-4686-b639-d3f963fda788")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG03"
 			(at 207.645 191.77 0)
 			(effects
 				(font
@@ -22522,7 +23026,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "#FLG07")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -22537,7 +23041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e11164c0-1dad-4c24-847d-827260f0640e")
-		(property "Reference" "D_11"
+		(property "Reference" "D_12"
 			(at 316.23 31.242 90)
 			(effects
 				(font
@@ -22582,6 +23086,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 313.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60de06f6-b7d7-4139-bede-5a094c5424df")
 		)
@@ -22591,7 +23104,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_11")
+					(reference "D_12")
 					(unit 1)
 				)
 			)
@@ -22606,7 +23119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1322ee4-19c0-48b6-8b85-9efaca17fed3")
-		(property "Reference" "K_53"
+		(property "Reference" "K_54"
 			(at 365.76 95.6818 0)
 			(effects
 				(font
@@ -22614,7 +23127,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "r_shift"
 			(at 365.76 104.14 0)
 			(effects
 				(font
@@ -22623,7 +23136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 365.76 101.6 0)
 			(effects
 				(font
@@ -22658,7 +23171,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_53")
+					(reference "K_54")
 					(unit 1)
 				)
 			)
@@ -22673,7 +23186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c67493-3b30-493f-969b-6d419ba9f327")
-		(property "Reference" "C31"
+		(property "Reference" "C4"
 			(at 239.268 175.514 90)
 			(effects
 				(font
@@ -22734,7 +23247,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C31")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -22749,7 +23262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e67999da-4b7c-4a2f-aa1a-4cf52c9440fe")
-		(property "Reference" "K_44"
+		(property "Reference" "K_45"
 			(at 111.76 95.6818 0)
 			(effects
 				(font
@@ -22757,7 +23270,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "x"
 			(at 111.76 104.14 0)
 			(effects
 				(font
@@ -22766,7 +23279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -22801,7 +23314,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_44")
+					(reference "K_45")
 					(unit 1)
 				)
 			)
@@ -22816,7 +23329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebfba59b-0b1c-414d-b2ef-7fddd2f54cd0")
-		(property "Reference" "D_7"
+		(property "Reference" "D_8"
 			(at 214.63 31.242 90)
 			(effects
 				(font
@@ -22861,6 +23374,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2ec7b5c-dafb-49d3-bcd0-e994d311ad51")
 		)
@@ -22870,7 +23392,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_7")
+					(reference "D_8")
 					(unit 1)
 				)
 			)
@@ -22885,7 +23407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee04dc6c-6deb-41c3-b897-8942455872a5")
-		(property "Reference" "K_38"
+		(property "Reference" "K_39"
 			(at 289.56 70.2818 0)
 			(effects
 				(font
@@ -22893,7 +23415,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "l"
 			(at 289.56 78.74 0)
 			(effects
 				(font
@@ -22902,7 +23424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 289.56 76.2 0)
 			(effects
 				(font
@@ -22937,7 +23459,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_38")
+					(reference "K_39")
 					(unit 1)
 				)
 			)
@@ -22952,7 +23474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeaee355-19c4-432f-8d47-56a75f849d9a")
-		(property "Reference" "D_29"
+		(property "Reference" "D_30"
 			(at 36.83 82.042 90)
 			(effects
 				(font
@@ -22997,6 +23519,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0efc1222-e3bb-4a88-91d1-b4099c91d2ff")
 		)
@@ -23006,7 +23537,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_29")
+					(reference "D_30")
 					(unit 1)
 				)
 			)
@@ -23021,7 +23552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeb2bd67-8524-4a5b-8043-0f4f186beb8e")
-		(property "Reference" "D_48"
+		(property "Reference" "D_49"
 			(at 214.63 107.442 90)
 			(effects
 				(font
@@ -23066,6 +23597,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ec52e34-11b5-4901-a921-c26d07dab601")
 		)
@@ -23075,7 +23615,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_48")
+					(reference "D_49")
 					(unit 1)
 				)
 			)
@@ -23090,7 +23630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0ad47be-4b15-4efb-aac5-2ff3765690e2")
-		(property "Reference" "D_22"
+		(property "Reference" "D_23"
 			(at 240.03 56.642 90)
 			(effects
 				(font
@@ -23135,6 +23675,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fbdc58d-f6c6-4cf4-a553-09b457690804")
 		)
@@ -23144,7 +23693,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_22")
+					(reference "D_23")
 					(unit 1)
 				)
 			)
@@ -23159,7 +23708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3c44810-8e85-43b9-a219-5fb3d985f809")
-		(property "Reference" "K_39"
+		(property "Reference" "K_40"
 			(at 314.96 70.2818 0)
 			(effects
 				(font
@@ -23167,7 +23716,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "semi"
 			(at 314.96 78.74 0)
 			(effects
 				(font
@@ -23176,7 +23725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 314.96 76.2 0)
 			(effects
 				(font
@@ -23211,7 +23760,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_39")
+					(reference "K_40")
 					(unit 1)
 				)
 			)
@@ -23227,7 +23776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f873edef-047a-40ce-8052-c0ace0769fe6")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 229.87 259.08 0)
 			(effects
 				(font
@@ -23289,7 +23838,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -23304,7 +23853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa2a2e00-bd0c-444b-9ef7-41ed26b3d5a8")
-		(property "Reference" "D_37"
+		(property "Reference" "D_38"
 			(at 265.43 82.042 90)
 			(effects
 				(font
@@ -23349,6 +23898,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C2128"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74e6785e-68e8-4d91-b1fe-c21be5548211")
 		)
@@ -23358,7 +23916,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "D_37")
+					(reference "D_38")
 					(unit 1)
 				)
 			)
@@ -23374,7 +23932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa87ae42-2e28-4a7e-afc7-f9d68b4b7675")
-		(property "Reference" "C32"
+		(property "Reference" "C16"
 			(at 270.51 248.92 90)
 			(effects
 				(font
@@ -23435,7 +23993,7 @@
 		(instances
 			(project "keyboard"
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "C32")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -23450,7 +24008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff1bcbb3-8f87-4d81-9c7a-8d13c7e1af1c")
-		(property "Reference" "K_37"
+		(property "Reference" "K_38"
 			(at 264.16 70.2818 0)
 			(effects
 				(font
@@ -23458,7 +24016,7 @@
 				)
 			)
 		)
-		(property "Value" "KEYSW"
+		(property "Value" "k"
 			(at 264.16 78.74 0)
 			(effects
 				(font
@@ -23467,7 +24025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2"
+		(property "Footprint" "local:SW_Hotswap_Kailh_Choc_V1V2_annotated"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -23502,7 +24060,7 @@
 		(instances
 			(project ""
 				(path "/ee756133-ce5d-4302-8df3-762da84ea123"
-					(reference "K_37")
+					(reference "K_38")
 					(unit 1)
 				)
 			)
