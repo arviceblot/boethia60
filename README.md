@@ -2,6 +2,8 @@
 
 A low profile, hotswap keyboard inspired by the HHBK layout, powered by [rmk](https://github.com/haobogu/rmk) with the rp2040 MCU.
 
+![assembled prototype](images/prototype.jpg)
+
 ## Features
 
 - Low profile, with compatility for Choc V1 and V2 switches
